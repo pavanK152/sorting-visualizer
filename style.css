@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.buttons-div{
+    margin: 10px;
+    padding: 10px;
+}
+#box{
+    margin-left: 10px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+}
+
+#sortbtn{
+    height: 28px;
+    width: 100px;
+    margin: 10px;
+}
+
+#btn{
+    height: 30px;
+    width: 100px;
+}
+
+#container{
+    background-color: cadetblue;
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.b{
+    margin:5px;
+    background-color: blueviolet;
+    height:100px;
+    width: 100px;
+}
+
+@media only screen and (max-width: 577px) {
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    height: 80vh;
+    justify-content:space-evenly ;
+}
+    .b{
+        margin-left: 10px;
+        background-color: white;
+    }
+    body{
+        background-color: black;
+
+    }
+    .buttons-div{
+        background-color: aqua;
+
+    }
+    
+}
